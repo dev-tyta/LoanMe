@@ -4,7 +4,7 @@ from func import miss_values, ordinal_encoding, stratified_splits, rob_scaling
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from sklearn.svm import SVC
-
+from sklearn.metrics import f1_score
 
 loan_data = pd.read_csv('./dataset/loan_data_set.csv')
 
@@ -14,6 +14,7 @@ ordinal_encoding(loan_data)
 X = loan_data.drop(["Loan_Status", "Loan_ID"], axis=1)
 y = loan_data.Loan_Status
 
+y, unique = pd.factorize(y)
 print("Successfully split data.")
 
 rob_scaling(X, y)
@@ -27,4 +28,17 @@ voting_clf = VotingClassifier(estimators=[("lr", lr), ('rf', rf), ('svc', svc)],
 
 print("Loading model into Pickle....")
 voting_clf.fit(X_train, y_train)
+
+y_pred = voting_clf.predict(X_test)
+
+f1_score = f1_score(y_test, y_pred)
+
+print(f"f1_score of voting ensemble classifier: {f1_score}")
+
+voting_pickle = open(r"C:\Users\Testys\Documents\GitHub\Loan-Availability-Algorithm\Deployment\ensemble.pickle", "wb")
+
+pickle.dump(voting_clf, voting_pickle)
+voting_pickle.close()
+
+output_pickle = open("C:\Users\Testys\Documents\GitHub\Loan-Availability-Algorithm\Deployment\output.pickle", "wb")
 
