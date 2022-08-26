@@ -37,7 +37,7 @@ def ordinal_encoding(data):
 
 
 def stratified_splits(n_split, x, y):
-    skf = StratifiedKFold(n_splits=n_split)
+    skf = StratifiedKFold(n_splits=n_split, random_state=1234)
 
     for train_index, test_index in skf.split(x, y):
         x_train, x_test = x.loc[train_index], x.loc[test_index]
