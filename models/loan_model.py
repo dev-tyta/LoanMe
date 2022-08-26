@@ -14,6 +14,8 @@ ordinal_encoding(loan_data)
 X = loan_data.drop(["Loan_Status", "Loan_ID"], axis=1)
 y = loan_data.Loan_Status
 
+print("Successfully split data.")
+
 rob_scaling(X, y)
 X_train, X_test, y_train, y_test = stratified_splits(n_split=3, x=X, y=y)
 
@@ -23,5 +25,6 @@ rf = RandomForestClassifier(n_estimators=100, n_jobs=1, max_leaf_nodes=6)
 
 voting_clf = VotingClassifier(estimators=[("lr", lr), ('rf', rf), ('svc', svc)], voting="hard")
 
+print("Loading model into Pickle....")
 voting_clf.fit(X_train, y_train)
 
