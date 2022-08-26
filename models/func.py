@@ -40,8 +40,8 @@ def stratified_splits(n_split, x, y):
     skf = StratifiedKFold(n_splits=n_split)
 
     for train_index, test_index in skf.split(x, y):
-        x_train, x_test = x[train_index], x[test_index]
-        y_train, y_test = y[train_index], y[test_index]
+        x_train, x_test = x.loc[train_index], x.loc[test_index]
+        y_train, y_test = y.loc[train_index], y.loc[test_index]
     return x_train, x_test, y_train, y_test
 
 
