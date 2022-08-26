@@ -11,6 +11,7 @@ loan_data = pd.read_csv('./dataset/loan_data_set.csv')
 miss_values(loan_data)
 
 ordinal_encoding(loan_data)
+
 X = loan_data.drop(["Loan_Status", "Loan_ID"], axis=1)
 y = loan_data.Loan_Status
 
