@@ -40,5 +40,7 @@ voting_pickle = open(r"C:\Users\Testys\Documents\GitHub\Loan-Availability-Algori
 pickle.dump(voting_clf, voting_pickle)
 voting_pickle.close()
 
-output_pickle = open("C:\Users\Testys\Documents\GitHub\Loan-Availability-Algorithm\Deployment\output.pickle", "wb")
+output_pickle = open(r"C:\Users\Testys\Documents\GitHub\Loan-Availability-Algorithm\Deployment\output.pickle", "wb")
 
+pickle.dump(unique, output_pickle)
+output_pickle.close()
