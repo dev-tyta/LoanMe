@@ -10,6 +10,15 @@ voting_clf = pickle.load(voting_pickle)
 unique_mapping = pickle.load(map_pickle)
 
 
-@app.route("/availability")
+@app.route("/application-page")
 def display():
     return render_template("page.html")
+
+
+@app.route("/application-results")
+def results():
+    return render_template("results.html")
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
