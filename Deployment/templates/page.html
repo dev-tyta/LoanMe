@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Availability Page</title>
+</head>
+<body>
+<main>
+    <form action="/availability" method="post">
+        <div class="container">
+            <div class="fields">
+                <div class="form-field">
+                    <label for="f-name">First Name:</label>
+                    <input type="text" name="f-name" id="f-name" placeholder="First Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="l-name">Last Name:</label>
+                    <input type="text" name="l-name" id="l-name" placeholder="Last Name" required>
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+                </div>
+                <div class="form-field">
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="none" selected>Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="form-field">
+                    <label for="country">Country:</label>
+                    <input type="text" name="country" id="country" placeholder="Country" required>
+                </div>
+                <div class="form-field">
+                    <label for="state">State/Province:</label>
+                    <input type="text" name="state" id="state" placeholder="State" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-field">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="form-field">
+                    <label for="confirm-password">Confirm password:</label>
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm password" required>
+                </div>
+            </div>
+            <div class="button-field">
+                <button type="submit" class="submit-button">Register</button>
+            </div>
+        </div>
+    </form>
+</main>
+
+</body>
+</html>
