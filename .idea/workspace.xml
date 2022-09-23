@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="">
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="corrected css linking.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Deployment/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/page.html" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663865396551</updated>
       <workItem from="1663865462165" duration="1023000" />
-      <workItem from="1663881631465" duration="8967000" />
+      <workItem from="1663881631465" duration="10228000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663965126187</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="corrected css linking.">
+      <created>1663965728089</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663965728089</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +145,8 @@
     <MESSAGE value="added feature input on page" />
     <MESSAGE value="Loan application Page completed." />
     <MESSAGE value="test css: to be changed soon" />
-    <option name="LAST_COMMIT_MESSAGE" value="test css: to be changed soon" />
+    <MESSAGE value="corrected css linking." />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected css linking." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1663959962637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />
