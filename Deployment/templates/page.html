@@ -54,24 +54,27 @@
                         </select>
                     </div>
                     <div class="form-field">
-                        <label for="phone">Phone:</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+                        <label for="income">How much do you earn? (Currency: Dollars):</label>
+                        <input type="number" name="income" id="income" placeholder="Applicant Income" required>
                     </div>
                     <div class="form-field">
-                        <label for="country">Country:</label>
-                        <input type="text" name="country" id="country" placeholder="Country" required>
+                        <label for="co-income">How much does the co-applicant earn? (Currency: Dollars):</label>
+                        <input type="text" name="co-income" id="co-income" placeholder="Co-Applicant Income" required>
                     </div>
                     <div class="form-field">
-                        <label for="state">State/Province:</label>
-                        <input type="text" name="state" id="state" placeholder="State" required>
+                        <label for="loan_amount">How much would you like to loan?:</label>
+                        <input type="number" name="loan_amount" id="loan_amount" placeholder="Loan amount" required>
                     </div>
                     <div class="form-field">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <label for="loan_term">How long would you like to take this long? (in days):</label>
+                        <input type="number" name="email" id="loan_term" placeholder="Loan term" required>
                     </div>
                     <div class="form-field">
-                        <label for="password">Password:</label>
-                        <input type="password" name="password" id="password" placeholder="Password" required>
+                        <label for="hist">Have you taken a loan before?:</label>
+                        <select type="d" name="password" id="hist" required>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
                     </div>
                     <div class="form-field">
                         <label for="confirm-password">Confirm password:</label>
@@ -84,6 +87,6 @@
             </div>
         </form>
     </main>
-    Loan_ID,Gender,Married,Dependents,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Property_Area,Loan_Status
+   <comment>Property_Area</comment>
 </body>
 </html>
