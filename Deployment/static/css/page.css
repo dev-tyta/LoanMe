@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #ffb36f;
+    background-color: rgba(0, 10, 20, 0.9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px;
+    /*border: 1px solid red;*/
+    margin: auto;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgba(0, 100, 180, 0.1);
+    margin-bottom: 30px;
+}
+
+.navbar .logo{
+    font-size: xxx-large;
+    padding: 10px;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgba(0, 0, 255), 0 0 0.2em rgb(0, 0, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.navbar li {
+    /*border: 2px solid;*/
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 10px auto;
+    text-align: center;
+    width: 50%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li:hover {
+    background-color: #113665;
+    box-shadow: 0 5px 4px rgba(0, 100, 180, 0.3);
+}
+
+main {
+    margin: 25px 0 40px 0;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    align-self: center;
+}
+
+.fields {
+    margin: auto;
+}
+
+.button-field {
+    margin: auto;
+}
+
+.form-field {
+    margin-bottom: 30px;
+}
+
+.form-field label {
+    font-size: 23px;
+}
+
+.form-field input, select {
+    border: none;
+    border-radius: 20px;
+    font: inherit;
+    font-size: 20px;
+    color: #ffb36f;
+    padding: 10px;
+    width: 100%;
+    background-color: #2e404e;
+    outline-color: #475e6e;
+}
+
+.submit-button {
+    font: inherit;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 12px 0 12px 0;
+    border: none;
+    background-color: #2e404e;
+    color: #ffb36f;
+    width: 120px;
+}
+
+.submit-button:hover {
+    font-size: 23px;
+    box-shadow: 0 5px 4px rgba(0, 100, 180, 0.3);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    background-color: #ffb36f;
+    color: #113665;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar .container {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1 {
+        margin-top: 40px;
+    }
+}
