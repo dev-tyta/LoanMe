@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="inspirational application" />
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="inspirational application">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deployment/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663865396551</updated>
       <workItem from="1663865462165" duration="1023000" />
-      <workItem from="1663881631465" duration="10947000" />
+      <workItem from="1663881631465" duration="11783000" />
+      <workItem from="1664027218204" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -154,6 +158,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="inspirational application" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1663959962637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />
+    <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1664041953069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />
   </component>
 </project>
