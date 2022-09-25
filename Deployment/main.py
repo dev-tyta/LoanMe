@@ -3,7 +3,16 @@ from flask_sqlalchemy import SQLAlchemy
 import pickle
 
 app = Flask(__name__)
-db = SQLAlchemy
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///loan_me.db"
+db = SQLAlchemy(app)
+
+
+class Contact(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+
+    def __repr__(self):
+        return "Contact" + str(self.id)
+
 
 voting_pickle = open('voting_ensemble.pickle', 'rb')
 map_pickle = open('output_result.pickle', 'rb')

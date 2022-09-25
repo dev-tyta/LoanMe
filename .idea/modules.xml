@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../About_me_zuri_task-main/.idea/About_me_zuri_task-main.iml" filepath="$PROJECT_DIR$/../About_me_zuri_task-main/.idea/About_me_zuri_task-main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Loan-Availability-Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Loan-Availability-Algorithm.iml" />
+      <module fileurl="file://$USER_HOME$/codes_python/.idea/codes_python.iml" filepath="$USER_HOME$/codes_python/.idea/codes_python.iml" />
     </modules>
   </component>
 </project>
