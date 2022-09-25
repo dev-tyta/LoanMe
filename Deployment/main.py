@@ -1,7 +1,9 @@
 from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
 import pickle
 
 app = Flask(__name__)
+db = SQLAlchemy
 
 voting_pickle = open('voting_ensemble.pickle', 'rb')
 map_pickle = open('output_result.pickle', 'rb')
@@ -38,6 +40,7 @@ def login():
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
