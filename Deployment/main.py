@@ -7,9 +7,9 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///loan_me.db"
 db = SQLAlchemy(app)
 
 
-class Contact(db.Model):
+class ContactRegistration(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-
+    name = db.Column(db.String)
     def __repr__(self):
         return "Contact" + str(self.id)
 
