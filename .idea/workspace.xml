@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="database collection">
-      <change beforePath="$PROJECT_DIR$/Deployment/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="database collection" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1663865462165" duration="1023000" />
       <workItem from="1663881631465" duration="11783000" />
       <workItem from="1664027218204" duration="4119000" />
-      <workItem from="1664141543827" duration="4198000" />
+      <workItem from="1664141543827" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
