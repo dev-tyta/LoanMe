@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, flash, url_for, request
+from flask import Flask, render_template, redirect, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 import pickle
 
@@ -33,6 +33,7 @@ def homepage():
 
 @app.route("/application-page")
 def display():
+    
     return render_template("page.html")
 
 
@@ -67,7 +68,7 @@ def signup():
         telephone = request.form['telephone']
         password = request.form['password']
 
-        sign_up = User(name=name, user=user, mail=mail, telephone= telephone, password=password)
+        sign_up = User(name=name, user=user, mail=mail, telephone=telephone, password=password)
         db.session.add(sign_up)
         db.session.commit()
     return render_template("signup.html")
