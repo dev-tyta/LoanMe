@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo"><a href="/home">0th</a></div>
+            <ul class="nav-list">
+                <li><a href="/home/contact">Contact</a></li>
+                <li><a href="/registration">Registration</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <form action="/signup" method="post">
+            <div class="container">
+                <div class="fields">
+                    <div class="form-field">
+                        <label for="full-name">Full Name(First and Last name):</label>
+                        <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for
+                    </div>
+                    <div class="form-field">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </div>
+                </div>
+                <div class="button-field">
+                    <button type="submit" class="submit-button">Sign in</button>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer>0th &copy; 2022</footer>
+</body>
+</html>
