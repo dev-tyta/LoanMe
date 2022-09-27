@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, flash, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 import pickle
 
@@ -7,9 +7,12 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///loan_me.db"
 db = SQLAlchemy(app)
 
 
-class ContactRegistration(db.Model):
+class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String)
+    name = db.Column(db.String(100))
+    user = db.Column(db.String(50))
+    email = db.Column(db.String(150))
+    password = db.Column(db.String(70))
     
     def __repr__(self):
         return "Contact" + str(self.id)

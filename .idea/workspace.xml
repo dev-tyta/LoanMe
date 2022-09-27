@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="signup page">
-      <change beforePath="$PROJECT_DIR$/Deployment/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deployment/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1663881631465" duration="11783000" />
       <workItem from="1664027218204" duration="4119000" />
       <workItem from="1664141543827" duration="4500000" />
-      <workItem from="1664284843048" duration="1991000" />
+      <workItem from="1664284843048" duration="2451000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -206,7 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664286928392</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="signup page to be linked with Login page soon">
+      <created>1664287778790</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664287778790</updated>
+    </task>
+    <task id="LOCAL-00019" summary="completed login page">
+      <created>1664287814612</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664287814612</updated>
+    </task>
+    <task id="LOCAL-00020" summary="signup page">
+      <created>1664287904632</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664287904633</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +261,8 @@
     <MESSAGE value="first database on the way to being created" />
     <MESSAGE value="Database for LoanMe" />
     <MESSAGE value="database collection" />
+    <MESSAGE value="signup page to be linked with Login page soon" />
+    <MESSAGE value="completed login page" />
     <MESSAGE value="signup page" />
     <option name="LAST_COMMIT_MESSAGE" value="signup page" />
   </component>
