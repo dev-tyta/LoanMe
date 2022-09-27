@@ -12,8 +12,9 @@ class User(db.Model):
     name = db.Column(db.String(100))
     user = db.Column(db.String(50))
     email = db.Column(db.String(150))
+    telephone = db.Column(db.Integer(20))
     password = db.Column(db.String(70))
-    
+
     def __repr__(self):
         return "Contact" + str(self.id)
 
@@ -45,15 +46,33 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/login")
+@app.route("/login", methods=["get", "post"])
 def login():
+    if request.method == 'post':
+        mail = request.form["email"]
+        password = request.form["password"]
+
+        log_in = User.query.filter_by(mail=mail, password=password).first()
+        if log_in is not None:
+            redirect(url_for("homepage"))
     return render_template("login.html")
 
 
-@app.route("/signup")
+@app.route("/signup", methods=["get", "post"])
 def signup():
+    if request.method == "post":
+        name = request.form['full-name']
+        user = request.form['username']
+        mail = request.form['email']
+        telephone = request.form['telephone']
+        password = request.form['password']
+
+        sign_up = User(name=name, user=user, mail=mail, telephone= telephone, password=password)
+        db.session.add(sign_up)
+        db.session.commit()
     return render_template("signup.html")
 
 
 if __name__ == "__main__":
+    db.create_all()
     app.run(debug=True)
