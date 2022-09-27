@@ -11,11 +11,12 @@
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo"><a href="/home">0th</a></div>
-            <ul class="nav-list">
-                <li><a href="/home/contact">Contact</a></li>
-                <li><a href="/registration">Registration</a></li>
+            <div class="logo"><a href="/home">LoanMe</a></div>
+            <ul class="navbar-toggle ">
+                <li><a href="/about">About Project</a></li>
+                <li><a href="/availability">Application Page</a></li>
                 <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Sign Up</a></li>
             </ul>
         </div>
     </nav>
@@ -37,20 +38,26 @@
                         <input type="email" name="email" id="email" placeholder="Email" required>
                     </div>
                     <div class="form-field">
-                        <label for
+                        <label for="telephone">Mobile Number:</label>
+                        <input type="tel" name="telephone" id="telephone" placeholder="Mobile Number" required>
                     </div>
                     <div class="form-field">
                         <label for="password">Password:</label>
                         <input type="password" name="password" id="password" placeholder="Password" required>
                     </div>
+                    <div class="form-field">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" name="confirm-password" id="confirm-password"
+                               placeholder="Confirm Password" required>
+                    </div>
                 </div>
                 <div class="button-field">
-                    <button type="submit" class="submit-button">Sign in</button>
+                    <button type="submit" class="submit-button">Sign Up</button>
                 </div>
             </div>
         </form>
     </main>
 
-    <footer>0th &copy; 2022</footer>
+    <footer>Sign Up &copy; 2022</footer>
 </body>
 </html>
