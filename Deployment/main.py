@@ -19,6 +19,19 @@ class User(db.Model):
         return "Contact" + str(self.id)
 
 
+class ApplicationData(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    gender = db.Column(db.String(10))
+    married = db.Column(db.String(10))
+    dependent = db.Column(db.String(5))
+    self_employed = db.Column(db.String(20))
+    educated = db.Column(db.String(50))
+
+
+    def __repr__(self):
+        return "Data" + str(self.id)
+
+
 voting_pickle = open('voting_ensemble.pickle', 'rb')
 map_pickle = open('output_result.pickle', 'rb')
 
