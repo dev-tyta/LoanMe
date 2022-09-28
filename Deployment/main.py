@@ -33,7 +33,7 @@ def homepage():
 
 @app.route("/application-page")
 def display():
-    
+
     return render_template("page.html")
 
 
