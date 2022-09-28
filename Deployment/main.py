@@ -26,7 +26,10 @@ class ApplicationData(db.Model):
     dependent = db.Column(db.String(5))
     self_employed = db.Column(db.String(20))
     educated = db.Column(db.String(50))
-
+    income = db.Column(db.Integer)
+    co_income = db.Column(db.Integer)
+    loan_amount = db.Column(db.Imteger)
+    loan_term = db.Column(db.Interger)
 
     def __repr__(self):
         return "Data" + str(self.id)
