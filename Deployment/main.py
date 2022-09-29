@@ -12,7 +12,7 @@ class User(db.Model):
     name = db.Column(db.String(100))
     user = db.Column(db.String(50))
     email = db.Column(db.String(150))
-    telephone = db.Column(db.Integer(20))
+    telephone = db.Column(db.Integer())
     password = db.Column(db.String(70))
 
     def __repr__(self):
