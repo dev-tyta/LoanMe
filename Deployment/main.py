@@ -47,8 +47,12 @@ def homepage():
     return render_template("")
 
 
-@app.route("/application-page")
+@app.route("/application-page", methods=["get", "post"])
 def display():
+    if request.method == "post":
+        gender = request.form["gender"]
+        married = request.form["married"]
+        dependent = request.form["dependent"]
 
     return render_template("page.html")
 
