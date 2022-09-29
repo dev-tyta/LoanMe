@@ -30,6 +30,7 @@ class ApplicationData(db.Model):
     co_income = db.Column(db.Integer)
     loan_amount = db.Column(db.Imteger)
     loan_term = db.Column(db.Interger)
+    prop = db.Column(db.String(20))
 
     def __repr__(self):
         return "Data" + str(self.id)
@@ -53,7 +54,20 @@ def display():
         gender = request.form["gender"]
         married = request.form["married"]
         dependent = request.form["dependent"]
+        self_employed = request.form["self_employed"]
+        educated = request.form['education']
+        income = request.form["income"]
+        co_income = request.form["co-income"]
+        loan_amount = request.form["loan_amount"]
+        loan_term = request.form["loan_term"]
+        prop = request.form["property"]
 
+        application = ApplicationData(gender=gender, married=married, dependent=dependent, self_employed=self_employed,
+                                      educated=educated, income=income, co_income=co_income, loan_amount=loan_amount,
+                                      loan_term=loan_term, prop=prop)
+        db.session.add(application)
+        db.session.commit()
+        redirect(url_for("results"))
     return render_template("page.html")
 
 
