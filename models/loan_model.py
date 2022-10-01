@@ -18,7 +18,7 @@ y = loan_data.Loan_Status
 y, unique = pd.factorize(y)
 print("Successfully split data.")
 
-rob_scaling(X, y)
+X=rob_scaling(X, y)
 X_train, X_test, y_train, y_test = stratified_splits(n_split=3, x=X, y=y)
 
 lr = LogisticRegression(random_state=1234, n_jobs=1)
