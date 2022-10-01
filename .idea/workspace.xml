@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="omo  might be the only thing I commit today. Sick">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deployment/static/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/static/css/page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,8 @@
       <workItem from="1664027218204" duration="4119000" />
       <workItem from="1664141543827" duration="4500000" />
       <workItem from="1664284843048" duration="10831000" />
-      <workItem from="1664445262273" duration="10532000" />
+      <workItem from="1664445262273" duration="11089000" />
+      <workItem from="1664650066310" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664486950486</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="omo  might be the only thing I commit today. Sick">
+      <created>1664567793203</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1664567793524</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
