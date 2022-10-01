@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="unnecessary database for testing">
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="X value assigned to rob_scaling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/loan_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/loan_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deployment/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1664141543827" duration="4500000" />
       <workItem from="1664284843048" duration="10831000" />
       <workItem from="1664445262273" duration="11089000" />
-      <workItem from="1664650066310" duration="2120000" />
+      <workItem from="1664650066310" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -320,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664652774497</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="X value assigned to rob_scaling">
+      <created>1664653777272</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1664653777273</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +346,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="inspirational application" />
     <MESSAGE value="navigation bar nonsense" />
     <MESSAGE value="new pages to be created." />
     <MESSAGE value="na this one wetin e dey upload o" />
@@ -364,7 +370,8 @@
     <MESSAGE value="omo  might be the only thing I commit today. Sick" />
     <MESSAGE value="needed" />
     <MESSAGE value="unnecessary database for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="unnecessary database for testing" />
+    <MESSAGE value="X value assigned to rob_scaling" />
+    <option name="LAST_COMMIT_MESSAGE" value="X value assigned to rob_scaling" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1664481602171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />
