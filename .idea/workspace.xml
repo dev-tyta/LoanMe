@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="Figuring out about page enquires">
-      <change beforePath="$PROJECT_DIR$/Deployment/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/templates/about.html" afterDir="false" />
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="signup page css file.">
+      <change beforePath="$PROJECT_DIR$/.idea/Loan-Availability-Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Loan-Availability-Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tune_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/tune_model.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Testys/Documents/GitHub/About_me_zuri_task-main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Testys/Documents/GitHub/dev-tyta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Flask (main.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <option name="flaskDebug" value="true" />
@@ -87,7 +91,7 @@
       <workItem from="1664284843048" duration="10831000" />
       <workItem from="1664445262273" duration="11089000" />
       <workItem from="1664650066310" duration="6265000" />
-      <workItem from="1664738417379" duration="2211000" />
+      <workItem from="1664738417379" duration="4417000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -348,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664741880099</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Complete about page for LoanME">
+      <created>1664742356737</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742356737</updated>
+    </task>
+    <task id="LOCAL-00039" summary="signup page css file.">
+      <created>1664742424962</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1664742424962</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,8 +385,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="complete pages with file creation" />
-    <MESSAGE value="new pages" />
     <MESSAGE value="database step" />
     <MESSAGE value="first database on the way to being created" />
     <MESSAGE value="Database for LoanMe" />
@@ -392,7 +408,9 @@
     <MESSAGE value="working on about page" />
     <MESSAGE value="Mehn. I dey tired but I dont wanna be a mechanic." />
     <MESSAGE value="Figuring out about page enquires" />
-    <option name="LAST_COMMIT_MESSAGE" value="Figuring out about page enquires" />
+    <MESSAGE value="Complete about page for LoanME" />
+    <MESSAGE value="signup page css file." />
+    <option name="LAST_COMMIT_MESSAGE" value="signup page css file." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1664481602171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />
