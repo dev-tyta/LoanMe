@@ -74,9 +74,10 @@ def results():
                 ApplicationData.co_income[-1], ApplicationData.loan_amount[-1], ApplicationData.loan_term[-1],
                 ApplicationData.prop[-1]]
     pred_arg = np.array(pred_arr)
-    preds = pred_arg.reshape(1,-1)
-    votin
-    return render_template("results.html")
+    preds = pred_arg.reshape(1, -1)
+    prediction = voting_clf.predict(preds)
+    prediction = round(float(prediction), 2)
+    return render_template("results.html", prediction=prediction)
 
 
 @app.route("/about")
