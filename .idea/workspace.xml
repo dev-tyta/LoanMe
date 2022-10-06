@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="readme file legitimacy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="prediction on ApplicationData">
       <change beforePath="$PROJECT_DIR$/Deployment/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,28 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Loan-Availability-Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (main.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <option name="flaskDebug" value="true" />
       <module name="Loan-Availability-Algorithm" />
@@ -91,7 +113,7 @@
       <workItem from="1664738417379" duration="12368000" />
       <workItem from="1664913080226" duration="1164000" />
       <workItem from="1665007618632" duration="1172000" />
-      <workItem from="1665088041384" duration="2788000" />
+      <workItem from="1665088041384" duration="3075000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>
@@ -408,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664833499618</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="prediction on ApplicationData">
+      <created>1665091919087</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1665091919087</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +456,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed login page" />
     <MESSAGE value="signup page" />
     <MESSAGE value="database setup" />
     <MESSAGE value="backend system for login and signup page almost complete" />
@@ -452,7 +480,8 @@
     <MESSAGE value="readme file: app description." />
     <MESSAGE value="demo testing for LoanME with image." />
     <MESSAGE value="readme file legitimacy" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme file legitimacy" />
+    <MESSAGE value="prediction on ApplicationData" />
+    <option name="LAST_COMMIT_MESSAGE" value="prediction on ApplicationData" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Loan_Availability_Algorithm$Flask__main_py_.coverage" NAME="Flask (main.py) Coverage Results" MODIFIED="1664758584546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deployment" />

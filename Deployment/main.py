@@ -1,6 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 import pickle
+import numpy as np
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///loan_me.db"
@@ -72,6 +73,9 @@ def results():
                 ApplicationData.self_employed[-1], ApplicationData.educated[-1], ApplicationData.income[-1],
                 ApplicationData.co_income[-1], ApplicationData.loan_amount[-1], ApplicationData.loan_term[-1],
                 ApplicationData.prop[-1]]
+    pred_arg = np.array(pred_arr)
+    preds = pred_arg.reshape(1,-1)
+    votin
     return render_template("results.html")
 
 

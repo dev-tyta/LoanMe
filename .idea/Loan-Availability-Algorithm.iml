@@ -9,6 +9,9 @@
     <orderEntry type="module" module-name="KasRoudra-main" />
     <orderEntry type="module" module-name="dev-tyta" />
   </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
