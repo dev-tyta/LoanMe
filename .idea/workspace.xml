@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc609a6a-b01f-4c0c-8c12-da8c256c8399" name="Changes" comment="readme file legitimacy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deployment/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deployment/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,8 @@
       <workItem from="1664650066310" duration="6265000" />
       <workItem from="1664738417379" duration="12368000" />
       <workItem from="1664913080226" duration="1164000" />
+      <workItem from="1665007618632" duration="1172000" />
+      <workItem from="1665088041384" duration="2788000" />
     </task>
     <task id="LOCAL-00001" summary="addition">
       <created>1663886677730</created>

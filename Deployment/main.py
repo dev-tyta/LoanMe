@@ -43,11 +43,6 @@ voting_clf = pickle.load(voting_pickle)
 unique_mapping = pickle.load(map_pickle)
 
 
-@app.route("/home")
-def homepage():
-    return render_template("")
-
-
 @app.route("/application-page", methods=["get", "post"])
 def display():
     if request.method == "post":
@@ -73,6 +68,10 @@ def display():
 
 @app.route("/application-results")
 def results():
+    pred_arr = [ApplicationData.gender[-1], ApplicationData.married[-1], ApplicationData.dependent[-1],
+                ApplicationData.self_employed[-1], ApplicationData.educated[-1], ApplicationData.income[-1],
+                ApplicationData.co_income[-1], ApplicationData.loan_amount[-1], ApplicationData.loan_term[-1],
+                ApplicationData.prop[-1]]
     return render_template("results.html")
 
 
