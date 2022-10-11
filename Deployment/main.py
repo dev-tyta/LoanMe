@@ -77,7 +77,10 @@ def results():
     preds = pred_arg.reshape(1, -1)
     prediction = voting_clf.predict(preds)
     prediction = round(float(prediction), 2)
-    return render_template("results.html", prediction=prediction)
+    if prediction == 0:
+        return render_template("failed.html")
+    else:
+        return render_template("results.html", prediction=prediction)
 
 
 @app.route("/about")
