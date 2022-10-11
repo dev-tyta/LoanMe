@@ -5,6 +5,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import f1_score
+import warnings
+warnings.filterwarnings("ignore")
 
 loan_data = pd.read_csv('./dataset/loan_data_set.csv')
 
@@ -16,7 +18,7 @@ X = loan_data.drop(["Loan_Status", "Loan_ID"], axis=1)
 y = loan_data.Loan_Status
 
 y, unique = pd.factorize(y)
-print("Successfully split data.")
+print("Successfully split label.")
 
 X = rob_scaling(X, y)
 X_train, X_test, y_train, y_test = stratified_splits(n_split=3, x=X, y=y)
