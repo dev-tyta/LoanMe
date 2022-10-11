@@ -18,11 +18,11 @@ y = loan_data.Loan_Status
 y, unique = pd.factorize(y)
 print("Successfully split data.")
 
-X=rob_scaling(X, y)
+X = rob_scaling(X, y)
 X_train, X_test, y_train, y_test = stratified_splits(n_split=3, x=X, y=y)
 
 lr = LogisticRegression(random_state=1234, n_jobs=1)
-svc = SVC(random_state=1234, C =1, kernel='poly', degree=0, max_iter=1)
+svc = SVC(random_state=1234, C=1, kernel='poly', degree=0, max_iter=1)
 rf = RandomForestClassifier(n_estimators=100, n_jobs=1, max_leaf_nodes=6)
 
 voting_clf = VotingClassifier(estimators=[("lr", lr), ('rf', rf), ('svc', svc)], voting="hard")
