@@ -9,6 +9,7 @@
     <orderEntry type="module" module-name="KasRoudra-main" />
     <orderEntry type="module" module-name="dev-tyta" />
     <orderEntry type="module" module-name="Streamlit-Deployment-" />
+    <orderEntry type="module" module-name="dogs_vs_cats-" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />
