@@ -1,4 +1,3 @@
-<title>LoanME</title>
 <body>
     <h2 align="center"> LoanME</h2>
     <img alt="{{}}" height="300" width="500" align="center" src="img/wallhaven-4lq89l.png">
