@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanMe - Loan Application</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">LoanMe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="./page.html">Loan Application</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="py-4">
+        <div class="container">
+            <h1 class="text-center mb-4">Loan Application Form</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>Please fill out the form below to apply for a loan. Your information will be reviewed and processed by our team.</p>
+                    
+                    <!-- Loan Application Form -->
+                    <form action="/submitLoanApplication" method="post">
+                        <!-- Form fields here... -->
+                <!-- Gender Field -->
+                        <div class="form-field">
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="none">Prefer not to say</option>
+                    </select>
+                </div>
+
+                <!-- Married Field -->
+                <div class="form-field">
+                    <label for="married">Are you Married?:</label>
+                    <select name="married" id="married" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="none">Prefer not to say</option>
+                    </select>
+                </div>
+
+                <!-- Dependent Field -->
+                <div class="form-field">
+                    <label for="dependent">How many people are dependent on you?:</label>
+                    <select name="dependent" id="dependent" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3+">3 and above</option>
+                    </select>
+                </div>
+
+                <!-- Self-Employed Field -->
+                <div class="form-field">
+                    <label for="self-employed">Are you Self employed?:</label>
+                    <select name="self-employed" id="self-employed" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <!-- Education Field -->
+                <div class="form-field">
+                    <label for="education">Are you a Graduate?:</label>
+                    <select name="education" id="education" required>
+                        <option value="graduate">Yes</option>
+                        <option value="non-graduate">No</option>
+                    </select>
+                </div>
+
+                <!-- Income Field -->
+                <div class="form-field">
+                    <label for="income">How much do you earn? (Currency: Dollars):</label>
+                    <input type="number" name="income" id="income" placeholder="Applicant Income" required>
+                </div>
+
+                <!-- Co-Applicant Income Field -->
+                <div class="form-field">
+                    <label for="co-income">How much does the co-applicant earn? (Currency: Dollars):</label>
+                    <input type="text" name="co-income" id="co-income" placeholder="Co-Applicant Income" required>
+                </div>
+
+                <!-- Loan Amount Field -->
+                <div class="form-field">
+                    <label for="loan_amount">How much would you like to loan?:</label>
+                    <input type="number" name="loan_amount" id="loan_amount" placeholder="Loan amount" required>
+                </div>
+
+                <!-- Loan Term Field -->
+                <div class="form-field">
+                    <label for="loan_term">How long would you like to take this loan? (in days):</label>
+                    <input type="number" name="loan_term" id="loan_term" placeholder="Loan term" required>
+                </div>
+
+                <!-- Loan History Field -->
+                <div class="form-field">
+                    <label for="hist">Have you taken a loan before?:</label>
+                    <select name="hist" id="hist" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <!-- Property Location Field -->
+                <div class="form-field">
+                    <label for="property">Which area is your property located?</label>
+                    <select name="property" id="property" required>
+                        <option value="urban">Urban</option>
+                        <option value="rural">Rural</option>
+                        <option value="semi-urban">Semi-Urban</option>
+                        <option value="none">Not Applicable</option>
+                    </select>
+                </div>
+                        <!-- Submit Button -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Submit Application</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-4">
+        <div class="container py-3">
+            <p class="mb-0 text-center">© 2023 LoanMe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
