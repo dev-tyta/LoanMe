@@ -12,7 +12,7 @@ db.init_app(app)
 with open('voting_ensemble.pickle', 'rb') as voting_pickle:
     voting_clf = pickle.load(voting_pickle)
 
-@app.route("/application-page", methods=["GET", "POST"])
+@app.route("/page", methods=["GET", "POST"])
 def display():
     if request.method == "POST":
         # Extract and validate form data
@@ -39,7 +39,7 @@ def display():
         return redirect(url_for("results"))
     return render_template("page.html")
 
-@app.route("/application-results")
+@app.route("/results")
 def results():
     latest_application = ApplicationData.query.order_by(ApplicationData.id.desc()).first()
     if latest_application:
