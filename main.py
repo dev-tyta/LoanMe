@@ -8,9 +8,11 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///loan_me.db"
 db.init_app(app)
 
+
 # Load Pickle Files
 with open('voting_ensemble.pickle', 'rb') as voting_pickle:
     voting_clf = pickle.load(voting_pickle)
+
 
 @app.route("/page", methods=["GET", "POST"])
 def display():
@@ -27,8 +29,6 @@ def display():
         loan_term = int(request.form.get("loan_term", 0))
         prop = request.form.get("property")
 
-        # Add data validation here (omitted for brevity)
-
         # Save to database
         application = ApplicationData(gender=gender, married=married, dependent=dependent,
                                       self_employed=self_employed, educated=educated,
@@ -38,6 +38,7 @@ def display():
         db.session.commit()
         return redirect(url_for("results"))
     return render_template("page.html")
+
 
 @app.route("/results")
 def results():
