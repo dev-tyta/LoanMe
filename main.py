@@ -61,6 +61,7 @@ def results():
     else:
         return "No application data found"
 
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == 'POST':
@@ -73,6 +74,7 @@ def login():
         else:
             return "Invalid login credentials"
     return render_template("login.html")
+
 
 @app.route("/signup", methods=["GET", "POST"])
 def signup():
