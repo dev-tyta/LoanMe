@@ -14,6 +14,11 @@ with open('voting_ensemble.pickle', 'rb') as voting_pickle:
     voting_clf = pickle.load(voting_pickle)
 
 
+@app.route("/", methods=["GET"])
+def index():
+    return render_template("index_html")
+
+
 @app.route("/page", methods=["GET", "POST"])
 def display():
     if request.method == "POST":
