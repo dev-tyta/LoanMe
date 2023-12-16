@@ -28,7 +28,7 @@
 - Proficiency in supervised learning, particularly classification tasks.
 - Basic knowledge of Flask for backend development.
 - Understanding of front-end technologies like HTML, CSS, and JavaScript.
-- Insight into evaluation metrics to ensure model accuracy.
+- Knowledge of model evaluation metrics to ensure accuracy and reliability.
 
 ### Dependencies
 - **Machine Learning Libraries**: Catboost, LightGBM, Voting Ensemble, Scikit-learn, Pickle for robust model building.
@@ -61,8 +61,8 @@ Navigate to `http://127.0.0.1:5000` in your web browser to interact with LoanMe.
 
 LoanMe's API is the backbone of its functionality, offering endpoints such as:
 
-- **`/predict-loan-eligibility`**: Receives user data and returns a loan eligibility prediction.
-- **`/model-metrics`**: Provides insights into the model's performance and accuracy.
+- **`/page`**: Receives user data and returns a loan eligibility prediction.
+- **`/results`**: Returns the results from the user's eligibility test.
 
 The API is designed for ease of use, ensuring seamless integration with existing banking systems.
 
@@ -95,4 +95,4 @@ Contributions to LoanMe are welcome! Fork the repo, make your changes, and submi
 
 ## License
 
-LoanMe is open-sourced under [License Type]. See the LICENSE file for more details.
+LoanMe is open-sourced under [GNU...]. See the LICENSE file for more details.
