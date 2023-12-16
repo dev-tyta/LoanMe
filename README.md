@@ -95,4 +95,4 @@ Contributions to LoanMe are welcome! Fork the repo, make your changes, and submi
 
 ## License
 
-LoanMe is open-sourced under [GNU...]. See the LICENSE file for more details.
+LoanMe is open-sourced under [GPL-2.0 License]. See the LICENSE file for more details.
